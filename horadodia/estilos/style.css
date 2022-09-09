@@ -27,4 +27,26 @@ section{
 footer{
     color: white;
     text-align: center;
+    padding: 25px;
+}
+.link{
+    position: relative;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+div{
+    text-align: center;
+    padding: 10px;
+}
+#imagem{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
