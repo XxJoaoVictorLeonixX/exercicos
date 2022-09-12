@@ -9,7 +9,7 @@ function carregar(){
         img.src = 'imagens/dia.jpg'
         document.body.style.background = '#EA9028';
 
-    }else if(hora >=12 && hora <= 18){
+    }else if(hora <= 18){
         img.src = 'imagens/tarde.jpg'
         document.body.style.background = '#D6410A';
         
